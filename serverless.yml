@@ -25,6 +25,7 @@ provider:
 
   environment:
     tableName: notes
+    stripeSecretKey: ${env.STRIPE_SECRET_KEY}
 
   iamRoleStatements:
     - Effect: Allow
