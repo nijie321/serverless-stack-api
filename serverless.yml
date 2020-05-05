@@ -100,3 +100,6 @@ functions:
       - http:
           path: hello
           method: get
+
+resources:
+  - ${file(resources/api-gateway-errors.yml)}
